@@ -1,9 +1,3 @@
-# UNET prototype
+# Introduction To HTC Vive
 
-A sample project to use UNET protocol between client and server to allow multiplayer support for Unity
-
-# Execution on Windows
-Open main folder in Unity, open `File > Build Settings` build into `./build/client.exe`.
-Execute the client (double click).
-
-Then execute the server by opening `Scenes/Server` in unity and pressing `Play`.
+Following introduction to create a demo for HTC Vive: https://www.raywenderlich.com/149239/htc-vive-tutorial-unity
