@@ -20,6 +20,8 @@ public class ControllerGrabObject : MonoBehaviour {
 
     private void SetCollidingObject(Collider col)
     {
+        // if there's already a colliding object
+        // or the new colliding object has a rigid body
         if (collidingObject || !col.GetComponent<Rigidbody>()) { return; }
 
         collidingObject = col.gameObject;

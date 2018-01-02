@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// A class to test vivde controllers' interactions using debug messages
+/// </summary>
 public class ViveControllerInputTest : MonoBehaviour {
 
     // 1

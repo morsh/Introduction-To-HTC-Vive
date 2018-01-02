@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// A class to similate a raycast from the controller forward.
+/// It is an alternative to the teleporting script received with SteamVR
+/// </summary>
 public class LaserPointer : MonoBehaviour {
 
     private SteamVR_TrackedObject trackedObj;
